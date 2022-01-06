@@ -12,7 +12,7 @@ initDist(){
 #------------------------------------------
 
 #url访问目录，这个是你 github 仓库的名字
-initDist "module.exports = '/notes/'"
+initDist "module.exports = '/my-notes/'"
 
 # 生成静态文件
 npm run build
@@ -23,13 +23,13 @@ cd docs/.vuepress/dist
 if [ -z "$GITHUB_TOKEN" ]; then
   # 手动部署
   msg='deploy'
-  githubUrl=git@github.com:oddfar/notes.git
+  githubUrl=git@github.com:hnistzdk/my-notes.git
 else
   # 自动部署
   msg='来自github actions的自动部署'
-  githubUrl=https://oddfar:${GITHUB_TOKEN}@github.com/oddfar/notes.git
-  git config --global user.name "oddfar"
-  git config --global user.email "oddfar@163.com"
+  githubUrl=https://hnistzdk:${GITHUB_TOKEN}@github.com/hnistzdk/my-notes.git
+  git config --global user.name "hnistzdk"
+  git config --global user.email "369365576@qq.com"
 fi
 git init
 git add -A
@@ -54,10 +54,10 @@ else
   # 进入生成的文件夹
   cd docs/.vuepress/dist
 
-  giteeUrl=git@gitee.com:oddfar/notes.git  #gitee 仓库ssh地址
+  giteeUrl=git@gitee.com:hnistzdk/my-notes.git  #gitee 仓库ssh地址
   
-  git config --global user.name "oddfar"
-  git config --global user.email "oddfar@163.com"
+  git config --global user.name "hnistzdk"
+  git config --global user.email "369365576@qq.com"
   git init
   git add -A
   git commit -m "来自github actions的自动部署"
@@ -68,5 +68,3 @@ else
   # 删除秘钥
   rm -rf ~/.ssh
 fi
-
-

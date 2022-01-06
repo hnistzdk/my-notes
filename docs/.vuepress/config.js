@@ -6,7 +6,7 @@ const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
     theme: 'vdoing', // 使用依赖包主题
-    port: 8080, //端口
+    port: 8081, //端口
 
     plugins,
     themeConfig,

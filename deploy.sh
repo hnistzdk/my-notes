@@ -48,20 +48,20 @@ if [ -z "$SSH_PRIVATE_KEY" ]; then
   echo '如果是空字符串，则不部署到gitee'
 else
   #url访问目录
-  initDist "module.exports = '/my-notes/'"
+  initDist "module.exports = '/'"
   # 生成静态文件
   npm run build
   # 进入生成的文件夹
   cd docs/.vuepress/dist
 
-  # giteeUrl=git@gitee.com:hnistzdk/my-notes.git  #gitee 仓库ssh地址
+  giteeUrl=git@gitee.com:hnistzdk/my-notes.git  #gitee 仓库ssh地址
   
-  # git config --global user.name "hnistzdk"
-  # git config --global user.email "369365576@qq.com"
-  # git init
-  # git add -A
-  # git commit -m "来自github actions的自动部署"
-  # git push -f $giteeUrl master:gh-pages
+  git config --global user.name "hnistzdk"
+  git config --global user.email "369365576@qq.com"
+  git init
+  git add -A
+  git commit -m "来自github actions的自动部署"
+  git push -f $giteeUrl master:gh-pages
   
   cd - # 退回开始所在目录
   rm -rf docs/.vuepress/dist

@@ -61,6 +61,11 @@ module.exports = {
                 title: 'GitHub',
                 link: 'https://github.com/hnistzdk'
             },
+            {
+                iconClass: 'icon-erji',
+                title: '普通歌单',
+                link: 'http://music.163.com/playlist?id=936642760&userid=604011130'
+            },
         ]
     },
     footer: { // 页脚信息

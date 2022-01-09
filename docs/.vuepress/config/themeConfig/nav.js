@@ -90,8 +90,8 @@ module.exports = [
             // { text: 'Jenkins', link: '/jenkins/' },
         ]
     },
-    { text: '开发问题', link: '/dev/question/' },
+    { text: '开发问题😈', link: '/dev/question/' },
     { text: '设计模式', link: '/designPattern/' },
-    { text: '关于', link: '/about/' },
-    { text: '归档', link: '/archives/' }
+    { text: '关于💕', link: '/about/' },
+    { text: '归档🕛', link: '/archives/' }
 ]

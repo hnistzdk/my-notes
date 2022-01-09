@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.jpg
+#heroImage: /img/logo.jpg
 heroText: DK's Notes
 tagline: 顶峰见！
 actionText: 立刻进入 →

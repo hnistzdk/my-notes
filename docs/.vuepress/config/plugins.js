@@ -5,8 +5,19 @@ module.exports = [
         color: '#11a8cd', // 爱心颜色，默认随机色
         excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     }],
-	
-	/*
+
+    [
+        'vuepress-plugin-comment',
+        {
+            choosen: 'valine',
+            // options选项中的所有参数，会传给Valine的配置
+            options: {
+                el: '#valine-vuepress-comment',
+                appId: 'hkSO3pOdYlirlsfMH9Ll1bvV-gzGzoHsz',
+                appKey: 'H1sK07EARL2jWbK0JozVLXSp'
+            }
+        }
+    ],
 
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
         thirdparty: [ // 可选，默认 []
@@ -21,11 +32,10 @@ module.exports = [
             }
         ]
     }],
-	
-	*/
-	
-	//全文搜索插件
-	['fulltext-search'],
+
+
+    //全文搜索插件
+    ['fulltext-search'],
 
 
 

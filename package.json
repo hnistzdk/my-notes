@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "@vssue/api-github-v3": "^1.4.7",
-    "@vssue/vuepress-plugin-vssue": "^1.4.8"
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "valine": "^1.4.16",
+    "vuepress-plugin-comment": "^0.7.3"
   }
 }

@@ -14,10 +14,10 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
 
     // 以下配置是Vdoing主题改动的和新增的配置
-    category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
-    tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
+    category: true, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
+    tag: true, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
-    // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
+    categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
     // bodyBgImg: [
     //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
     //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
@@ -34,7 +34,7 @@ module.exports = {
 
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     updateBar: { // 最近更新栏
-        showToArticle: true, // 显示到文章页底部，默认true
+        showToArticle: false, // 显示到文章页底部，默认true
         // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
 
@@ -42,26 +42,26 @@ module.exports = {
         name: 'zdk', // 必需
         href: 'https://hnistzdk.github.io/my-notes/' // 可选的
     },
-    // blogger:{ // 博主信息，显示在首页侧边栏
-    //   avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    //   name: '致远',
-    //   slogan: '一个致障'
-    // },
-    // social:{ // 社交图标，显示于博主信息栏和页脚栏
-    //   // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
-    //   icons: [
-    //     {
-    //       iconClass: 'icon-youjian',
-    //       title: '发邮件',
-    //       link: 'mailto:3066693006@qq.com'
-    //     },
-    //     {
-    //       iconClass: 'icon-github',
-    //       title: 'GitHub',
-    //       link: 'https://github.com/oddfar'
-    //     },
-    //   ]
-    // },
+    blogger: { // 博主信息，显示在首页侧边栏
+        avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+        name: '风',
+        slogan: '摸鱼'
+    },
+    social: { // 社交图标，显示于博主信息栏和页脚栏
+        // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+        icons: [
+            {
+                iconClass: 'icon-youjian',
+                title: '发邮件',
+                link: 'mailto:369365576@qq.com'
+            },
+            {
+                iconClass: 'icon-github',
+                title: 'GitHub',
+                link: 'https://github.com/hnistzdk'
+            },
+        ]
+    },
     footer: { // 页脚信息
         createYear: 2022, // 博客创建年份
         copyrightInfo: 'zdk | notes', // 博客版权信息，支持a标签

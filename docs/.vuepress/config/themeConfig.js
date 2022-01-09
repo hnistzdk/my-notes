@@ -44,7 +44,7 @@ module.exports = {
     },
     blogger: { // 博主信息，显示在首页侧边栏
         // avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-        avatar: '/img/logo.jpg',
+        avatar: 'https://hnistzdk.github.io/my-notes/img/logo.jpg',
         name: '风',
         slogan: '摸鱼'
     },

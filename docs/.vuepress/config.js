@@ -17,7 +17,7 @@ module.exports = {
 
     head: [
         ['link', { rel: 'icon', href: '/img/logo.jpg' }],
-        ['meta', { name: 'keywords', content: 'dk' }],
+        ['meta', { name: 'keywords', content: 'Java' }],
         ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ],
     markdown: {

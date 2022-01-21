@@ -1,7 +1,3 @@
-使用 [vuepress](https://vuepress.vuejs.org/zh) 搭建，自动部署在[GitHub Pages](https://pages.github.com/) 和自己的云服务器
-
-
-
 >  在线浏览地址：
 
 - GitHubPage：<https://hnistzdk.github.io/my-notes>

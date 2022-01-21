@@ -66,11 +66,6 @@ module.exports = {
                 link: 'https://gitee.com/hnistzdk'
             },
             {
-                iconClass: 'icon-QQ',
-                title: 'QQ',
-                link: '36965576'
-            },
-            {
                 iconClass: 'icon-erji',
                 title: '普通歌单',
                 link: 'http://music.163.com/playlist?id=936642760&userid=604011130'

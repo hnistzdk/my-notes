@@ -75,7 +75,8 @@ module.exports = {
     footer: { // 页脚信息
         createYear: 2022, // 博客创建年份
         copyrightInfo: 'zdk | notes <br>' +
-            '<a href=http://beian.miit.gov.cn/>湘ICP备2022001117号-1</a>', // 博客版权信息，支持a标签
+            '<a href=http://beian.miit.gov.cn/>湘ICP备2022001117号-1</a>' +
+            '<br><img src=http://www.beian.gov.cn/img/ghs.png /><a href=http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51142102511562>川公网安备 51142102511562号</a>', // 博客版权信息，支持a标签
     },
     //htmlModules // 插入hmtl(广告)模块
 

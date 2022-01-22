@@ -44,7 +44,7 @@ module.exports = {
     },
     blogger: { // 博主信息，显示在首页侧边栏
         // avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-        avatar: 'https://hnistzdk.github.io/my-notes/img/logo.jpg',
+        avatar: '/img/logo.jpg',
         name: '风',
         slogan: '摸鱼'
     },
@@ -76,7 +76,7 @@ module.exports = {
         createYear: 2022, // 博客创建年份
         copyrightInfo: 'zdk | notes <br>' +
             '<a href=http://beian.miit.gov.cn/>湘ICP备2022001117号-1</a>' +
-            '<br><img src=http://www.beian.gov.cn/img/ghs.png /><a href=http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51142102511562>川公网安备 51142102511562号</a>', // 博客版权信息，支持a标签
+            '<br><img src=/img/ghs.png /><a href=http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51142102511562>川公网安备 51142102511562号</a>', // 博客版权信息，支持a标签
     },
     //htmlModules // 插入hmtl(广告)模块
 

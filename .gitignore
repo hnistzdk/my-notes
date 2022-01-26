@@ -16,3 +16,6 @@ urls.txt
 
 #out
 .out
+
+# vuepress temp file
+.temp

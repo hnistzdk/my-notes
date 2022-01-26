@@ -10,6 +10,8 @@ echo --- the process is $ID ---
 kill -9  $ID
 echo  "Killed $ID"
 
+# 安装
+cnpm install
 # 启动
 nohup npm run dev&
 

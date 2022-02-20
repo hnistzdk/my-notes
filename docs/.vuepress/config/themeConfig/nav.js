@@ -91,6 +91,13 @@ module.exports = [
             // { text: 'Jenkins', link: '/jenkins/' },
         ]
     },
+    {
+        text: '面试|刷题',
+        items: [
+            { text: '面试', link: '/work/interview/' },
+            { text: '刷题', link: '/work/algorithm/' }
+        ]
+    },
     { text: '开发问题😈', link: '/dev/question/' },
     { text: '设计模式', link: '/designPattern/' },
     { text: '关于💕', link: '/about/' },

@@ -1,5 +1,6 @@
 // import vue from 'vue/dist/vue.esm.browser'
 import copy from './copy'
+import getGittalk from './getGittalk'
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
   options, // 附加到根实例的一些选项
@@ -10,65 +11,11 @@ export default ({
   setTimeout(() => {
     try {
       document && (() => { //对document的判断是防止编译的时候报错
-        copy()
+        getGittalk.call(this, siteData);
+        copy();
       })()
     } catch (e) {
       console.error(e.message)
     }
   }, 500)
-  try {
-    document && integrateGitalk(router)
-  } catch (e) {
-    console.error(e.message)
-  }
-
-  function integrateGitalk(router) {
-    const linkGitalk = document.createElement('link');
-    linkGitalk.href = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css';
-    linkGitalk.rel = 'stylesheet';
-    document.body.appendChild(linkGitalk);
-    const scriptGitalk = document.createElement('script');
-    scriptGitalk.src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js';
-    document.body.appendChild(scriptGitalk);
-
-    router.afterEach((to) => {
-      if (scriptGitalk.onload) {
-        loadGitalk(to);
-      } else {
-        scriptGitalk.onload = () => {
-          loadGitalk(to);
-        }
-      }
-    });
-
-    function loadGitalk(to) {
-      let commentsContainer = document.getElementById('gitalk-container');
-      if (!commentsContainer) {
-        commentsContainer = document.createElement('div');
-        commentsContainer.id = 'gitalk-container';
-        commentsContainer.classList.add('content');
-      }
-      const $page = document.querySelector('.page');
-      if ($page) {
-        $page.appendChild(commentsContainer);
-        if (typeof Gitalk !== 'undefined' && Gitalk instanceof Function) {
-          renderGitalk(to.fullPath);
-        }
-      }
-    }
-
-    function renderGitalk(fullPath) {
-      const gitalk = new Gitalk({
-        clientID: '47277731802090a63814',
-        clientSecret: 'dc6f628c6202184333d4fd8097fdb6312b651d63', // come from github development
-        repo: 'my-notes',
-        owner: 'hnistzdk',
-        admin: ['hnistzdk'],
-        id: 'comment',
-        distractionFreeMode: false,
-        language: 'zh-CN',
-      });
-      gitalk.render('gitalk-container');
-    }
-  }
 }

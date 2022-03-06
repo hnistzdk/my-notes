@@ -11,23 +11,23 @@ module.exports = [
     ['go-top'],
 
     //丝带插件
-    ['ribbon',{
-            size: 90, // width of the ribbon, default: 90
-            opacity: 0.8, // opacity of the ribbon, default: 0.3
-            zIndex: -1, // z-index property of the background, default: -1
+    ['ribbon', {
+        size: 90, // width of the ribbon, default: 90
+        opacity: 0.8, // opacity of the ribbon, default: 0.3
+        zIndex: -1, // z-index property of the background, default: -1
     }],
 
     //评论插件
     [
         'vuepress-plugin-comment',
         {
-            choosen: 'valine',
+            choosen: 'gittalk',
             // options选项中的所有参数，会传给Valine的配置
-            options: {
-                el: '#valine-vuepress-comment',
-                appId: 'hkSO3pOdYlirlsfMH9Ll1bvV-gzGzoHsz',
-                appKey: 'H1sK07EARL2jWbK0JozVLXSp'
-            }
+            // options: {
+            //     el: '#valine-vuepress-comment',
+            //     appId: 'hkSO3pOdYlirlsfMH9Ll1bvV-gzGzoHsz',
+            //     appKey: 'H1sK07EARL2jWbK0JozVLXSp'
+            // }
         }
     ],
 

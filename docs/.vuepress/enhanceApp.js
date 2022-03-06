@@ -16,6 +16,11 @@ export default ({
       console.error(e.message)
     }
   }, 500)
+  try {
+    document && integrateGitalk(router)
+  } catch (e) {
+    console.error(e.message)
+  }
 
   function integrateGitalk(router) {
     const linkGitalk = document.createElement('link');
@@ -65,10 +70,5 @@ export default ({
       });
       gitalk.render('gitalk-container');
     }
-  }
-  try {
-    document && integrateGitalk(router)
-  } catch (e) {
-    console.error(e.message)
   }
 }

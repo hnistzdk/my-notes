@@ -19,15 +19,20 @@ module.exports = [
 
     //评论插件
     [
-        'vuepress-plugin-comment',
+        'vuepress-plugin-comment-plus',
         {
-            choosen: 'gittalk',
-            // options选项中的所有参数，会传给Valine的配置
-            // options: {
-            //     el: '#valine-vuepress-comment',
-            //     appId: 'hkSO3pOdYlirlsfMH9Ll1bvV-gzGzoHsz',
-            //     appKey: 'H1sK07EARL2jWbK0JozVLXSp'
-            // }
+            choosen: 'gitalk',
+            options: {
+                clientID: '47277731802090a63814',
+                clientSecret: '20f5180fea5764c8fba30f717b0625bbfbb6e92e',
+                repo: 'my-notes',
+                owner: 'hnistzdk',
+                admin: ['hnistzdk'],
+                id: '<%- frontmatter.permalink %>',
+                title: '「Comment」<%- frontmatter.title %>',
+                distractionFreeMode: false,
+                language: 'zh-CN',
+            }
         }
     ],
 

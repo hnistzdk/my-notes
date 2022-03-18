@@ -16,11 +16,22 @@ module.exports = {
     description: '时不我待，舍我其谁', // 描述,以 <meta> 标签渲染到页面html中
 
     head: [
-        ['link', { rel: 'icon', href: '/img/logo.jpg' }],
-        ['meta', { name: 'keywords', content: 'Java' }],
-        ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+        ['link', {
+            rel: 'icon',
+            href: '/img/logo.jpg'
+        }],
+        ['meta', {
+            name: 'keywords',
+            content: 'Java'
+        }],
+        ['meta', {
+            name: 'theme-color',
+            content: '#11a8cd'
+        }], // 移动浏览器主题颜色
     ],
     markdown: {
-        lineNumbers: true // 代码行号
+        lineNumbers: true, // 代码行号
+        //使目录支持h2~h6标题
+        extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6']
     },
 }

@@ -11,11 +11,11 @@ module.exports = [
     ['go-top'],
 
     //丝带插件
-    ['ribbon', {
-        size: 90, // width of the ribbon, default: 90
-        opacity: 0.8, // opacity of the ribbon, default: 0.3
-        zIndex: -1, // z-index property of the background, default: -1
-    }],
+    // ['ribbon', {
+    //     size: 90, // width of the ribbon, default: 90
+    //     opacity: 0.8, // opacity of the ribbon, default: 0.3
+    //     zIndex: -1, // z-index property of the background, default: -1
+    // }],
 
     //评论插件
     [
@@ -92,7 +92,15 @@ module.exports = [
                 return moment(timestamp).format('YYYY/MM/DD, H:MM:SS');
             }
         }
-    ]
-
-
+    ],
+    //收起代码块配置
+    [{
+        name: 'custom-plugins',
+        globalUIComponents: ["BlockToggle"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    }],
+    //全局时间提示配置
+    [{
+        name: 'custom-plugins',
+        globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    }],
 ]

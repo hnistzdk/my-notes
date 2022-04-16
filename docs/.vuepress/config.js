@@ -3,7 +3,6 @@ const base = require('../../base.js');
 const themeConfig = require('./config/themeConfig.js');
 
 
-
 module.exports = {
     theme: 'vdoing', // 使用依赖包主题
     port: 8081, //端口
@@ -20,6 +19,25 @@ module.exports = {
             rel: 'icon',
             href: '/img/logo.jpg'
         }],
+        ['link', {
+            rel: 'stylesheet',
+            href: '//at.alicdn.com/t/font_3334662_k54hl9700p.css'
+        }],
+        ['link', {
+            rel: 'stylesheet',
+            href: '//at.alicdn.com/t/font_3334662_k54hl9700p.css'
+        }],
+
+        ['link', {
+            rel: 'stylesheet',
+            href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css'
+        }],
+
+        //私密文章
+        ['link', {
+            rel: 'stylesheet',
+            href: '//at.alicdn.com/t/font_3334691_b03dsaqrwck.css'
+        }],
         ['meta', {
             name: 'keywords',
             content: 'Java'
@@ -34,4 +52,5 @@ module.exports = {
         //使目录支持h2~h6标题
         extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6']
     },
+
 }

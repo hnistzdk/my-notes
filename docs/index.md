@@ -5,15 +5,14 @@ heroText: DK's Notes
 tagline: 顶峰见！
 actionText: 立刻进入 →
 actionLink: /categories/
-bannerBg: none 
+pageClass: vdoing-index-class
+bannerBg: none
 postList: detailed
-# bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
-
-
-# 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
+#<Fantasy />
 ---
 
+<ClientOnly>
+  <IndexBigImg />
 
-
-<h2 align="center">人生哪有多如意，万事只求半称心。</h2>
+</ClientOnly>
 

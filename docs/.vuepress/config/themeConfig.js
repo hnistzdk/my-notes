@@ -98,8 +98,8 @@ module.exports = {
         bubbleNum: 200, // 气泡的个数，bubble 为 true 生效，默认 200 个
     },
     // bodyBgImg: '/img/fantasy/bg.png', // 你的图片路径(必须位于 public 下)，可以是 URL
-    //bodyBgImg: '/img/road_rain_bridge.jpg', // 你的图片路径(必须位于 public 下)，可以是 URL
-    bodyBgImg: '/img/BACk.png', // 你的图片路径(必须位于 public 下)，可以是 URL
+    bodyBgImg: '/img/road_rain_bridge.jpg', // 你的图片路径(必须位于 public 下)，可以是 URL
+    //bodyBgImg: '/img/BACk.png', // 你的图片路径(必须位于 public 下)，可以是 URL
     bodyBgImgOpacity: 1, // body 背景图透明度，选值 0 ~ 1.0, 默认0.5
 
 

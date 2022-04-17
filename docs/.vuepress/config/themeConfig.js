@@ -95,7 +95,7 @@ module.exports = {
         descNextTime: 800, // 当存在多个 desc 时，一个 desc 展示完后或准备开始时，多少秒后出现下一个 desc，默认 800 毫秒
         bubble: true, // 是否开启图片的气泡效果，默认为 false
         bubblePosition: 0, // 气泡效果的位置，范围：0-100，不同数值代表不同的起始位置，0是整个图片，50是半张图（一半的下方）。bubble 为 true 生效。默认是 0
-        bubbleNum: 200, // 气泡的个数，bubble 为 true 生效，默认 200 个
+        bubbleNum: 100, // 气泡的个数，bubble 为 true 生效，默认 200 个
     },
     // bodyBgImg: '/img/fantasy/bg.png', // 你的图片路径(必须位于 public 下)，可以是 URL
     bodyBgImg: '/img/road_rain_bridge.jpg', // 你的图片路径(必须位于 public 下)，可以是 URL

@@ -37,21 +37,21 @@ export default {
           50,
           4000
         );
-      } else if (hours >= 12 && hours <= 16) {
+      } else if (hours >= 12 && hours <= 18) {
         addTip(
           `下午好呀~~，现在是 ${hours}:${minutes}:${seconds}，繁忙的下午也要适当休息哦🥤🏀~~`,
           "info",
           50,
           4000
         );
-      } else if (hours >= 16 && hours <= 19) {
+      } else if (hours > 18 && hours <= 20) {
         addTip(
           `到黄昏了~~，现在是 ${hours}:${minutes}:${seconds}，该准备吃饭啦🥗🍖~~`,
           "info",
           50,
           4000
         );
-      } else if (hours >= 19 && hours < 24) {
+      } else if (hours >= 21 && hours < 24) {
         addTip(
           `晚上好呀~~，现在是 ${hours}:${minutes}:${seconds}，该准备洗漱睡觉啦🥱😪~~`,
           "info",

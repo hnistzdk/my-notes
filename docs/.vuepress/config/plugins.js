@@ -115,7 +115,7 @@ module.exports = [
                 // type: 'playlist',
                 // mid: '936642760',
                 // auto: 'https://music.163.com/#/playlist?id=5187647705'
-                order: 'random',
+                // order: 'random',
                 auto: 'https://music.163.com/#/playlist?id=7392985838'
             },
             // 不配置该项的话不会出现全局播放器

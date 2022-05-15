@@ -109,9 +109,19 @@ module.exports = [{
                 items: [{
                     text: 'RabbitMQ',
                     link: '/rabbitmq/'
+                }, {
+                    text: 'Dubbo',
+                    link: '/dubbo/'
                 }, ]
             }
         ]
+    },
+    {
+        text: '项目',
+        items: [{
+            text: '秒杀项目',
+            link: '/project/seckill/'
+        }, ]
     },
     {
         text: '工具|部署',

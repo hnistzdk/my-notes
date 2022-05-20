@@ -105,6 +105,13 @@ module.exports = [{
                 ]
             },
             {
+                text: 'SpringCloud',
+                items: [{
+                    text: 'SpringCloud',
+                    link: '/SpringCloud/'
+                }]
+            },
+            {
                 text: '中间件',
                 items: [{
                     text: 'RabbitMQ',

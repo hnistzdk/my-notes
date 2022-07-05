@@ -36,6 +36,13 @@ module.exports = [{
                     link: '/javaweb/'
                 }, ]
             },
+            {
+                text: 'Java虚拟机',
+                items: [{
+                    text: 'JVM',
+                    link: '/JVM/'
+                }, ]
+            },
         ]
     },
     {

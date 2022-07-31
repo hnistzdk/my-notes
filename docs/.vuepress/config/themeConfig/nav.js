@@ -80,7 +80,7 @@ module.exports = [{
     {
         text: '框架',
         items: [{
-                text: '数据库',
+                text: 'ORM',
                 items: [{
                         text: 'MyBatis',
                         link: '/mybatis/study-note/'

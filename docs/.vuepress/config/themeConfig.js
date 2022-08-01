@@ -40,7 +40,7 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
         name: 'zdk', // 必需
-        href: 'https://zaiolos.top/' // 可选的
+        href: 'https://www.zaiolos.top/' // 可选的
     },
     blogger: { // 博主信息，显示在首页侧边栏
         // avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',

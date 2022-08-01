@@ -105,23 +105,23 @@ module.exports = [
     }],
 
     //音乐插件
-    [
-        'meting',
-        {
-            // 这个 API 是不可用的，只是作为示例而已
-            // metingApi: 'https://music.163.com/#/playlist?id=936642760',
-            meting: {
-                // server: 'netease',
-                // type: 'playlist',
-                // mid: '936642760',
-                // auto: 'https://music.163.com/#/playlist?id=5187647705'
-                // order: 'random',
-                auto: 'https://music.163.com/#/playlist?id=7392985838'
-            },
-            // 不配置该项的话不会出现全局播放器
-            aplayer: {
-                lrcType: 3,
-            },
-        },
-    ],
+    // [
+    //     'meting',
+    //     {
+    //         // 这个 API 是不可用的，只是作为示例而已
+    //         // metingApi: 'https://music.163.com/#/playlist?id=936642760',
+    //         meting: {
+    //             // server: 'netease',
+    //             // type: 'playlist',
+    //             // mid: '936642760',
+    //             // auto: 'https://music.163.com/#/playlist?id=5187647705'
+    //             // order: 'random',
+    //             auto: 'https://music.163.com/#/playlist?id=7392985838'
+    //         },
+    //         // 不配置该项的话不会出现全局播放器
+    //         aplayer: {
+    //             lrcType: 3,
+    //         },
+    //     },
+    // ],
 ]

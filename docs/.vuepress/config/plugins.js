@@ -104,7 +104,7 @@ module.exports = [
         globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }],
 
-    音乐插件
+    // 音乐插件
     [
         'meting',
         {

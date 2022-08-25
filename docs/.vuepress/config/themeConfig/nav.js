@@ -47,6 +47,7 @@ module.exports = [{
     },
     {
         text: '数据库',
+        link: '/mysql/',
         items: [
 
             {
@@ -79,6 +80,7 @@ module.exports = [{
     },
     {
         text: '框架',
+        link: '/mybatis/study-note/',
         items: [{
                 text: 'ORM',
                 items: [{
@@ -132,6 +134,7 @@ module.exports = [{
     },
     {
         text: '项目',
+        link: '/project/seckill/',
         items: [{
             text: '秒杀项目',
             link: '/project/seckill/'
@@ -139,6 +142,7 @@ module.exports = [{
     },
     {
         text: '工具|部署',
+        link: '/git/',
         items: [{
                 text: 'Git',
                 link: '/git/'
@@ -151,11 +155,16 @@ module.exports = [{
                 text: 'Docker',
                 link: '/Docker/'
             },
+            {
+                text: 'JWT',
+                link: '/JWT/note/'
+            },
             // { text: 'Jenkins', link: '/jenkins/' },
         ]
     },
     {
         text: '面试|刷题',
+        link: '/work/interview/',
         items: [{
                 text: '面试',
                 link: '/work/interview/'

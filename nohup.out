@@ -1723,3 +1723,4 @@ Language does not exist: jsp
 i Compiling Client
 √ Client: Compiled with some errors in 104.87ms
 csuccess [16:33:11] Build e9a104 finished in 105 ms! ( http://localhost:8081/my-notes/ )
+^C

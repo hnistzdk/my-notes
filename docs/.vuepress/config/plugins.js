@@ -24,7 +24,7 @@ module.exports = [
             choosen: 'gitalk',
             options: {
                 clientID: '47277731802090a63814',
-                clientSecret: '20f5180fea5764c8fba30f717b0625bbfbb6e92e',
+                clientSecret: 'f29cc42b51e3ee09b214c4abf0cff06ac3b11670',
                 repo: 'my-notes',
                 owner: 'hnistzdk',
                 admin: ['hnistzdk'],

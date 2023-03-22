@@ -1,1 +1,1 @@
-module.exports = '/my-notes/'
+module.exports = '/'

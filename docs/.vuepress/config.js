@@ -46,6 +46,7 @@ module.exports = {
             name: 'theme-color',
             content: '#11a8cd'
         }], // 移动浏览器主题颜色
+        ['meta', {name: 'baidu-site-verification', content: 'codeva-mEwDV4VWX6'}],
     ],
     markdown: {
         lineNumbers: true, // 代码行号

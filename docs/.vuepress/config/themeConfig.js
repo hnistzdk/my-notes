@@ -77,7 +77,7 @@ module.exports = {
         copyrightInfo: 'zdk | notes <br>' +
             '<a href=http://beian.miit.gov.cn/>湘ICP备2022001117号-1</a>' +
             '<br><img src=/img/ghs.png /><a href=http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51142102511562>川公网安备 51142102511562号</a>' +
-            '<br><a href=https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referra><img src=/img/upyun.png align=absmiddle width=70px height=30px /></a> <span> 提供加速服务 </span>', // 博客版权信息， 支持a标签
+            '<br>本网站由<a href=https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral><img src=/img/upyun.png align=absmiddle width=70px height=30px /></a> <span> 提供CDN加速/云存储服务 </span>', // 博客版权信息， 支持a标签
     },
 
     indexImg: {

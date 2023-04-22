@@ -46,6 +46,25 @@ module.exports = [{
         ]
     },
     {
+        text: 'Golang',
+        link: '/golang/base',
+        items: [{
+                text: 'golang基础',
+                items: [{
+                    text: 'golang基础',
+                    link: '/golang/base/'
+                }, ]
+            },
+            {
+                text: 'golang框架',
+                items: [{
+                    text: 'gin',
+                    link: '/golang/gin/'
+                }, ]
+            },
+        ]
+    },
+    {
         text: '数据库',
         link: '/mysql/',
         items: [

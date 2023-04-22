@@ -19,3 +19,5 @@ urls.txt
 
 # vuepress temp file
 .temp
+
+dist.zip
